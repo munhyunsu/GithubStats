@@ -7,7 +7,6 @@ CRED_FILE = 'private/github_cred.txt'
 
 
 def main(argv):
-    print(argv)
     if len(argv) < 2:
         print('Need id lists')
         sys.exit(0)
@@ -22,3 +21,4 @@ def main(argv):
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv))
+
