@@ -24,5 +24,6 @@ class AuthOpener(object):
             return self.opener
         self.opener = urllib.request.build_opener()
         self.opener.addheaders = [('Authorization', 'Basic ' + self.auth),
-                                  ('User-Agent', 'LuHa\'s Github Stats')]
+                                  ('User-Agent', 'LuHa\'s Github Stats')] # Need fix
         return self.opener
+
